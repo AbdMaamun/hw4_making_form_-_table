@@ -1,0 +1,25 @@
+.wrapper{
+	width: 60%;
+	margin: 0 auto;
+	/*border: 3px solid black;*/
+}
+
+label{
+	font-size: 20px
+}
+.first_name, .last_name, .email, .password{
+	width: 80%;
+	height: 16px;
+	padding: 5px;
+	font-size: 14px;
+}
+.message{
+	font-size: 16px;
+	padding: 10px;
+}
+
+table, th, td{
+	border: 3px solid red;
+}
+
+

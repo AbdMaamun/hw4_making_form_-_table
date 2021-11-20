@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Making form & table</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1 style="text-align: center; color: red; font-size: 40px; font-family: sans-serif; background: black;">Input Your Data</h1>
+	<div class="wrapper">
+		<form action="https://www.facebook.com/abd.maamun/" method="get" enctype="multipart/form-data">
+		<label for="first_name">First Name:</label> <br>
+		<input type="text" placeholder="Type Your First Name" name="first_name" id="first_name" class="first_name">
+<br><br>
+		<label for="last_name">Last Name:</label> <br>
+		<input type="text" placeholder="Type Your Last Name" name="last_name" id="last_name" class="last_name">
+
+<br> <br>
+		<label for="email">Email Address:</label> <br>
+		<input type="text" placeholder="Type Your Email Address " name="email" id="email" class="email">
+<br> <br>
+		<label for="password">Type Your Password:</label> <br>
+		<input type="text" placeholder="Type Your password" name="password" id="password" class="password">
+<br> <br>
+
+		<label for="gender">Gender:</label> <br>
+		
+		<input type="radio" value="Male" name="gender" id="gender" > <span>Male</span>
+		
+		<input type="radio" value="Female" name="gender" id="gender" > <span>Female</span>
+ 		<br><br>
+
+ 		<label for="education qualification">Education Qualification:</label> <br>
+
+ 		<input type="checkbox" value="jsc" name=""> <span>JSC</span>
+ 		<input type="checkbox" value="ssc"name="" > <span>SSC</span>
+ 		<input type="checkbox" value="hsc" name=""> <span>HSC</span>
+<br><br>
+		<label for="message">Your Message:</label> <br>
+		<textarea cols="100" rows="10" placeholder="Type Your Message Here" name="message" id="message" class="message"></textarea>
+
+<br><br>
+
+ 		<button style="color: blue;" class="submit">Submit</button>
+ 		<button type="reset" style="color: blue;">Reset me</button>
+
+		</form>
+	</div>
+
+<p style="text-align: center; color: red; font-size: 40px; font-family: serif; background: black;">Making Table</P>
+
+<table style="text-align: center; background: green; margin: 0 auto;">
+	<tr>
+		<th>NAME</th>
+		<th>ID</th>
+		<th>ENROLLED COURSE</th>
+	</tr>
+	<tr>
+		<td>Mamun</td>
+		<td>005</td>
+		<td>Full stack web</td>
+	</tr>
+	<tr>
+		<td>Jhon</td>
+		<td>009</td>
+		<td>UI/UX</td>
+	</tr>
+	<tr>
+		<td>Mark</td>
+		<td>004</td>
+		<td>Affiliate marketing</td>
+	</tr>
+	<tr>
+		<td>Roy</td>
+		<td>011</td>
+		<td>Graphics Design</td>
+	</tr>
+</table>
+
+</body>
+</html>
